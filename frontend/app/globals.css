@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
+
+/* ─── Base resets ─────────────────────────────────────────────────────────── */
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-brand-dark text-white antialiased;
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: #0A0A0F;
+  background-image:
+    radial-gradient(ellipse 100% 60% at 50% -10%, rgba(212,160,23,0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 80% 80%,   rgba(16,185,129,0.04) 0%, transparent 60%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar             { width: 6px; height: 6px; }
+::-webkit-scrollbar-track       { background: #0A0A0F; }
+::-webkit-scrollbar-thumb       { background: #1E1E2E; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #2D2D42; }
+
+/* ─── Utility classes ─────────────────────────────────────────────────────── */
+@layer components {
+  .card {
+    @apply bg-brand-card border border-brand-border rounded-2xl;
+  }
+
+  .btn-primary {
+    @apply bg-brand-gold hover:bg-brand-amber text-black font-semibold
+           px-5 py-2.5 rounded-xl transition-all duration-150
+           disabled:opacity-40 disabled:cursor-not-allowed
+           active:scale-[0.98] shadow-lg shadow-brand-gold/20;
+  }
+
+  .btn-outline {
+    @apply border border-brand-border hover:border-brand-gold/50
+           text-brand-muted hover:text-white
+           px-5 py-2.5 rounded-xl transition-all duration-150
+           disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .btn-danger {
+    @apply bg-brand-red/20 hover:bg-brand-red/30 text-brand-red
+           border border-brand-red/30 hover:border-brand-red/60
+           px-5 py-2.5 rounded-xl transition-all duration-150;
+  }
+
+  .input {
+    @apply bg-brand-dark border border-brand-border rounded-xl
+           px-4 py-2.5 text-white placeholder-brand-muted
+           focus:outline-none focus:border-brand-gold/50
+           transition-colors w-full;
+  }
+
+  .badge-open     { @apply bg-brand-green/15  text-brand-green  border border-brand-green/25  text-xs font-medium px-2.5 py-0.5 rounded-full; }
+  .badge-active   { @apply bg-brand-amber/15  text-brand-amber  border border-brand-amber/25  text-xs font-medium px-2.5 py-0.5 rounded-full; }
+  .badge-repaid   { @apply bg-blue-500/15     text-blue-400     border border-blue-500/25     text-xs font-medium px-2.5 py-0.5 rounded-full; }
+  .badge-default  { @apply bg-brand-red/15    text-brand-red    border border-brand-red/25    text-xs font-medium px-2.5 py-0.5 rounded-full; }
+  .badge-inactive { @apply bg-gray-500/15     text-gray-400     border border-gray-500/25     text-xs font-medium px-2.5 py-0.5 rounded-full; }
+}
+
+/* ─── Progress bar ────────────────────────────────────────────────────────── */
+.progress-bar {
+  @apply h-1.5 rounded-full bg-brand-border overflow-hidden;
+}
+.progress-bar-fill {
+  @apply h-full rounded-full bg-gradient-to-r from-brand-gold to-brand-amber transition-all duration-500;
+}
+
+/* ─── Gold glow for big numbers ──────────────────────────────────────────── */
+.text-gold-glow {
+  color: #D4A017;
+  text-shadow: 0 0 24px rgba(212,160,23,0.5);
+}
