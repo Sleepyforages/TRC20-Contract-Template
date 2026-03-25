@@ -1,0 +1,24 @@
+{
+  "name": "depofi-contracts",
+  "version": "1.0.0",
+  "description": "DepoFi – Invite-only short-term USDT lending protocol on Tron",
+  "scripts": {
+    "compile": "tronbox compile",
+    "migrate:dev": "tronbox migrate --network development",
+    "migrate:nile": "tronbox migrate --network nile",
+    "migrate:mainnet": "tronbox migrate --network mainnet",
+    "test": "tronbox test",
+    "test:coverage": "tronbox test --coverage",
+    "clean": "rm -rf build"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "@openzeppelin/contracts-upgradeable": "^5.1.0"
+  },
+  "devDependencies": {
+    "tronbox": "^4.1.0",
+    "chai": "^4.4.1",
+    "mocha": "^10.4.0",
+    "dotenv": "^16.4.5"
+  }
+}
