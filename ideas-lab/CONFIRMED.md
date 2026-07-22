@@ -60,8 +60,23 @@
 - Bigdata: development phase ingests multi-county scanned deed/easement archives (millions of page images, TB-scale); nationwide title plants hold ~8B images.
 **Evidence:** pandell.com, quorumsoftware.com, geoamps.com, deedplotter.ai, get.acres.com/deedai, datatracetitle.com, pipelineequities.com, globalnews.ca (Trans Mountain).
 
+## ✅ 6. ParcelPast — per-parcel historical-imagery change-detection reports for title & environmental due diligence
+**Offer:** Automated AI change-detection over georeferenced historical aerial imagery producing per-parcel reports (structures appearing/disappearing, encroachments, undisclosed additions, fill/dumping activity across decades) for title insurers, real-estate attorneys and Phase I ESA consultants. V1 built entirely on public-domain, already-georeferenced imagery: USGS DOQ (1987-2006) + NAIP (2003-present) = ~38 years continuous national coverage; state public-domain archives extend depth; NETR's 1,000TB archive is an upside licensing negotiation, not a dependency.
+**Buyer:** Phase I ESA consultants (historical aerial review is MANDATORY under ASTM E1527-21/EPA for CERCLA liability protection — recurring, standards-driven demand; EDR bundles ~$375/report inside $2.2-4k engagements), title insurers, attorneys (ALTA surveys $3-15k).
+**Criteria:**
+- Novel: verified twice — no automated decades-deep per-parcel product (NETR = manual viewer; LightBox/EDR = PDFs for manual review; CAPE Analytics = recent imagery for insurance carriers; Agniforge = corridor drone/LiDAR).
+- Tech: AI (CV change detection).
+- Commercialisable: per-parcel report pricing riding existing ESA/title report workflows.
+- No R&D: change detection on pre-georeferenced imagery is productized CV (CAPE/Ecopia run it at scale); cross-decade QA is engineering.
+- Demand: PROVEN and standards-mandated (ASTM E1527-21).
+- Bigdata: multi-TB public imagery archives (NAIP alone is hundreds of TB); HPC for national backfill processing.
+**Evidence:** vonbriesen.com ASTM requirement, lightboxre.com EDR product, capeanalytics.com, historicaerials.com/terms (ToS constraint documented), usgs.gov DOQ coverage, arXiv 2112.04255.
+
 ---
-Slots remaining: 5
+Slots remaining: 4
+
+## Killed in iter5
+- TowRecover (towed-vehicle auction analytics): IAA Vehicle Value/ACV MAX = same service, same asset class, sibling channel; Autura owns distribution. Strict novelty kill.
 
 ## Parked (novel but demand unproven — candidates for reframing)
 - W14 ObituaryMind: obituary-volume demand forecasting for death-care suppliers. No evidence anyone buys forecasting in this vertical.
