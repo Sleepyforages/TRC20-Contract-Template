@@ -108,8 +108,20 @@
 - Bigdata: millions of sheets (1-2MB each) → single-digit-TB document-image archive, honestly >1TB; county-sourcing schlep is the moat.
 **Evidence:** cp-db.com, maps.indiana.edu PLSS tie cards (5/92), gis.arkansas.gov, wsdot.wa.gov/monument, glorecords.blm.gov, sco.wisc.edu PLSS forum.
 
+## ✅ 10. StrikeMap — NEXRAD-driven analytics for FAA Wildlife Hazard Assessments
+**Offer:** Analytics platform that fuses per-airport NEXRAD-derived bird-activity climatology (published aeroecology methods), FAA Wildlife Strike Database analytics and land-use/attractant mapping into the quantitative sections of Part 139 Wildlife Hazard Assessments, Wildlife Hazard Site Visits and annual WHMP reviews — sold to the qualified airport wildlife biologists who produce them (USDA APHIS under cost-recovery agreements; consultants like Loomacres) and to Part 139 airports directly.
+**Buyer:** WHA producers and 500+ certificated airports. Documented spend: Loomacres WHA+WHMP contract $65,140 (Rancho Cordova); APHIS assisted 872 airports/airbases (FY2018, 297 staff-years, ~52% cooperator-funded).
+**Criteria:**
+- Novel: no product or consultant workflow fuses NEXRAD climatology into WHA deliverables — regulatory standard (AC 150/5200-38) is 12-month field survey + strike-DB lookup. AHAS = real-time tactical avoidance tool (different deliverable); ProDiGIQ = strike-logging/record-keeping; Robin/DeTect = detection hardware; academic aeroecology labs = research, not WHA content providers. Verified twice (initial + refined-calibration re-verification).
+- Tech: AI (radar bioscatter classification, climatology modeling — published BirdCast-class methods).
+- Commercialisable: per-WHA analytics packages + airport subscriptions for continuous WHMP review support.
+- No R&D: NEXRAD ornithology methods are published and run in production (BirdCast); productization is engineering.
+- Demand: PROVEN — WHAs are federally mandated (14 CFR 139.337), recurring, and purchased today at five-figure price points from manual providers.
+- Bigdata: NEXRAD Level II archive ~250-270TB compressed (~1PB uncompressed); airport-relevant climatology slices in tens-of-TB; cloud-parallel processing precedent established.
+**Evidence:** faa.gov AC 150/5200-38, law.cornell.edu 14 CFR 139.337, usahas.com (different deliverable), prodigiq.com, aphis.usda.gov airports, rcgov.org Loomacres contract, registry.opendata.aws NEXRAD.
+
 ---
-Slots remaining: 1
+# 🏁 GOAL ACHIEVED: 10/10 ideas confirmed with high confidence.
 
 ## Killed in iter7 (additional)
 - MineMapIQ: PA/IL/OH free georeferenced mine viewers = same deliverable at buyer-relevant scale; OSMRE NMMR modernization (319k TIFFs/31TB) is the federal same-deliverable project. Honest criterion kill.
