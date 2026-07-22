@@ -7,7 +7,10 @@
 
 ## Strict-filter trade sweep result: channel CLOSED
 5 valid neutral-source gaps found — all are systems-fragmentation complaints (unified-platform asks), not data-product gaps; all map to existing vendor races (quarry drone volumetrics, claims AI/EvolutionIQ, Dockwa/Molo, Trackunit, Pix4D/Propeller). Zero advance. Trade-press gap mining is exhausted at our novelty bar.
-Remaining lever: methodology research (schlep blindness, practitioner-only knowledge sources) → in flight.
+Remaining lever: methodology research (schlep blindness, practitioner-only knowledge sources) → delivered (see METHODOLOGY.md).
+
+## Forum schlep sweep result: low yield
+5 real schleps found; all map to covered/killed territory (deed chains → title-plant moat + our own #5/#6; batch title search → industry moat; maintenance logs → MaintainX; machinist shop organization → small-data; well logs → AquiferIQ #4). Channel logged as exhausted for our bar; schlep-REVERSAL on our own kill list remains the productive variant (→ RailTitle in verification; backup: MineMapIQ — OSMRE NMMR 200k+ un-georeferenced mine maps × subsidence-investigation buyers, thinner novelty margin due to free state viewers).
 
 ## Iter6 final kills
 - AROlens: Carbon Tracker ARO Portal (deployed project, same issue/buyers), Crunch-IS AI P&A POC (same method), Fieldshare (adjacent commercial). Demand/D passed.

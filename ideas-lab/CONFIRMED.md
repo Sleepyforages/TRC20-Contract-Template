@@ -84,8 +84,20 @@
 - Bigdata: multi-year drone orthomosaics across a portfolio of hundreds of banks = multi-TB; satellite baseline (NAIP/Sentinel) at TB-scale.
 **Evidence:** ecobot.com/monitoring, res.us (annual drone flights), erdc.usace.army.mil drone-truthing, USACE district monitoring templates (mvp/saw.usace.army.mil).
 
+## ✅ 8. RailTitle — the digital rail-corridor title layer (ICC valuation maps, digitized + AI-indexed)
+**Offer:** Digitize, georeference and AI-index the ICC railroad valuation archive (RG 134: ~125,000 right-of-way/tract maps + valuation schedules, 1915-1920, largely undigitized at the National Archives) into the authoritative national rail-corridor title/ROW layer; sold per-case/per-corridor to Trails Act takings attorneys, railroads, fiber/telecom corridor lessees, utilities needing crossing agreements, DOTs and title insurers. Classic schlep: tedious capital digitization work nobody wants — which is why it's still open.
+**Buyer:** Active Trails Act plaintiffs' bar (Stewart Wald & McCulley et al. — every case needs valuation-map research); corridor commerce (fiber, crossings); today all buy manual per-case NARA research from boutiques (TRG, Westmoreland Research).
+**Criteria:**
+- Novel: no product or national-intent project exists. TRG/Westmoreland = manual per-case retrieval services (demand evidence, per AquiferIQ/ParcelPast precedent — manual consultants ≠ product competitors). MnDOT (one state, internal records purpose), ELHS/Redlands (one railroad, heritage), UConn (academic subset), NARA crowdtagging = partial, different-purpose efforts with no commercial deliverable or national mandate — distinguished from CATALOG/AgTile-US kill precedents which had same-deliverable national intent. Verifier concedes the national+AI+productized bundle "looks genuinely open"; orchestrator override documented.
+- Tech: AI (map OCR/feature extraction, georeferencing automation, entity-linked index).
+- Commercialisable: per-case litigation packages + corridor subscriptions.
+- No R&D: georeferencing this exact map series is empirically demonstrated (MnDOT, ELHS ArcGIS projects); scanning at NARA is permitted routine practice.
+- Demand: PROVEN — named litigation industry requiring exactly this research; commercial research boutiques monetize it manually today; STB NITU pipeline generates new cases continuously.
+- Bigdata: ~11,000 cubic feet; 125k large-format archival scans (100-300MB each) + schedules = multi-TB document-image archive.
+**Evidence:** taylorresearchgroup.com, westmorelandresearch.org, dot.state.mn.us/surveying/railroad.html, inspire.redlands.edu, swslegal.com, archives.gov RG 134.
+
 ---
-Slots remaining: 3
+Slots remaining: 2
 
 ## Killed in iter6 (additional)
 - OrphanFinder: DOE CATALOG consortium = publicly known PROJECT addressing same issue (U-Net on historical topo maps, 1,301 candidate wells found, explicit at-scale deployment mandate); Zefiro Methane commercial adjacent. Criteria include "projects" — consistent with ArchScreen precedent → kill despite strong demand ($4.7B IIJA).
