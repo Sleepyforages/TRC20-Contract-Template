@@ -1,4 +1,15 @@
-# Idea Harvest Skill — v2
+# Idea Harvest Skill — v3
+
+## v3 learnings (iter2: 100 raw → 18 verified → 2 confirmed, 2 parked)
+**Winning pattern (all 4 confirms so far):** an OVERLOOKED STAKEHOLDER in an existing money flow (PE roll-up, storage operator at auction, municipality siting a well, innovation scout) + the manual alternative is an EXPENSIVE PER-INSTANCE PROFESSIONAL SERVICE (consultant study $10-100k, test well, survey, platform subscription) + public/obtainable data. "Replace the consulting engagement with a data product."
+**Demand-evidence hierarchy (best→worst):** (1) government procurement docs/board minutes/RFPs with dollar amounts — public, verifiable, novelty-safe; (2) industry press explicitly naming an unsolved gap; (3) funded startups in ADJACENT problem (proves category spend); (4) vendor content marketing = RED FLAG, the vendor IS the competitor.
+**Verifier calibration:** R&D means unproven science / open research problems (analog-film georeferencing, radar QPE nowcasting, outdoor unstructured-terrain robots). Standard ML/CV/forecasting on obtainable data is ENGINEERING, not R&D — verifiers must not fail C for "requires building a model."
+**Scoping rescues ideas:** v1-scope to the digitized subset (AquiferIQ: digital-log states only) can flip a no-R&D FAIL to PASS.
+**New kill-patterns (add to list):** dynamic pricing/revenue mgmt for ANY hospitality-adjacent vertical (Campspot, PriceLabs, IDeaS); vertical field-service SaaS + "add prediction" (ServiceCore, Routeware, AMCS cover the boring fleets); reserve studies (SmartProperty Atlas); WIM enforcement analytics (Rekor, IRD); CEMS/power-plant intel for traders (IIR, Wood Mac, Yes Energy, Kpler); historical-series reconstruction (Global Financial Data); residuals/royalty automation (EP, Exactuals); photo→repair-guide CV (Streem, iFixit FixBot); cross-community benchmarking plays where a vertical SaaS incumbent just shipped it — CHECK INCUMBENT PRESS RELEASES, they move fast.
+
+---
+
+# (v2 below, still valid)
 
 ## Goal
 Find 10 business ideas (hustles or products) that pass ALL criteria with high confidence.

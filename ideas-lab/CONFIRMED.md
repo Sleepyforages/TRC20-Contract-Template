@@ -24,5 +24,34 @@
 - Bigdata: TB-scale across portfolio — millions of plot records, scanned deeds, GIS maps, LiDAR/GPR cemetery surveys (StoneMor alone: 76k+ unsold spaces; BillionGraves: hundreds of millions of records industry-wide).
 **Evidence:** grata.com death-services playbook, ionanalytics.com deathcare M&A, bisnow.com PE funeral homes, plotbox.com, cemsites.com, sec.gov StoneMor 10-K.
 
+## ✅ 3. LienLift — self-storage lien-auction recovery optimization
+**Offer:** Per-unit auction price prediction (CV on unit photos + hedonic models on auction outcomes) plus reserve/timing/channel recommendations, lifting operators' documented 39¢-on-the-dollar lien recovery. Optionally extends to default-risk early warning.
+**Buyer:** Self-storage operators/REITs (18,500+ facilities run 40k+ paid lien auctions/month via StorageTreasures alone).
+**Criteria:**
+- Novel: no per-unit auction price-prediction product exists; industry press explicitly frames it as an unsolved "significant opportunity for AI-powered price prediction" (ISS/OpenTech). Ai Lean = adjacent delinquency workflow automation only.
+- Tech: AI (CV on unit photos, hedonic/GBM pricing).
+- Commercialisable: SaaS or per-auction fee; recovery uplift directly measurable in dollars.
+- No R&D: standard CV + pricing models on existing auction-outcome data (orchestrator override of verifier's over-strict reading; hedonic pricing is textbook econometrics).
+- Demand: PROVEN — documented 39% recovery-rate pain; $8.8M+ recovered rent via marketplace; Ai Lean raised $5M for the adjacent problem, proving spend in the category.
+- Bigdata: auction photo corpora + outcomes + lease records across tens of thousands of facilities (TB-scale image data).
+**Evidence:** opentechalliance.com 39¢ recovery article, ai-lean.com, insideselfstorage.com Ai Lean $5M, greyborneco.com.
+
+## ✅ 4. AquiferIQ — data-driven well-siting for municipal & irrigation water
+**Offer:** ML yield/depth prediction maps and site-screening reports built from state digitized water-well drilling-log databases + USGS aquifer/terrain layers, replacing (or de-risking) $50-100k test wells and five-figure hydrogeology consulting engagements. V1 scoped to states with digital well-log DBs (CA DWR WCRs, TX SDR, CO, KS...); scanned-archive states added later via mature document-AI.
+**Buyer:** Municipal water authorities, irrigation districts, well-drilling contractors, rural developers.
+**Criteria:**
+- Novel: no commercial ML well-siting product in the US (MapAid/Databricks is a nonprofit East-Africa humanitarian tool; Leapfrog/GMS are expert modeling tools; Wellntel is hardware sensors).
+- Tech: AI (spatial ML interpolation/prediction).
+- Commercialisable: per-report or subscription; buyers already procure equivalent outputs from consultants.
+- No R&D: standard spatial ML on already-digitized public data (v1 scoping removes the OCR mountain).
+- Demand: PROVEN with direct public-sector spend evidence — $96,850 well-siting consultant contract in a district board doc; ENGEO paid siting proposals; $50-100k test wells routine.
+- Bigdata: millions of well logs + LAS files + statewide aquifer rasters + 3DEP terrain derivatives = TB-scale; HPC useful for statewide interpolation runs.
+**Evidence:** ncsd.ca.gov board doc D-4, sweetwater.org ENGEO proposal, startuphub.ai MapAid, wellntel.com, seequent.com.
+
 ---
-Slots remaining: 8
+Slots remaining: 6
+
+## Parked (novel but demand unproven — candidates for reframing)
+- W14 ObituaryMind: obituary-volume demand forecasting for death-care suppliers. No evidence anyone buys forecasting in this vertical.
+- W18 LivestockAI: auction-house price forecasting. Data requires partnerships; auction houses' willingness to pay unproven.
+- C18 lineage → became CONFIRMED #2 (PlotFolio).
