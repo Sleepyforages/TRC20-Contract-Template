@@ -26,5 +26,16 @@ Target X=10, raw batch per iteration = 100 (X*10).
 - Funnel: 100 raw → 18 verified → 2 direct confirms + 2 confirms via survivor work. Survivor strengthening/reframing had 100% hit rate (2/2) — cheapest confirms so far. Gap-mining and scoping rescues work.
 - Learnings → SKILL v3: consultant-replacement pattern; demand-evidence hierarchy (gov procurement docs best, vendor content = competitor tell); verifier R&D calibration; incumbent-press-release check; new kill-patterns.
 
-### Iteration 3 (2026-07-22, running)
-- Primary lens: CONSULTANT-REPLACEMENT — mine public procurement portals/board minutes/RFPs for recurring paid studies ($10k-500k) convertible to data products. Secondary: parked-idea strengthening (ObituaryMind demand), intersection round 3 avoiding kill list, incumbent-press-release pre-check in generation.
+### Iteration 3 (2026-07-22) — COMPLETE
+- Primary lens: CONSULTANT-REPLACEMENT (procurement mining) + intersections round 3 + parked-idea resolution.
+- Result: **+1 confirmed (5/10 total): RowGuard**. ObituaryMind killed (Legacy.com MarketIQ). LivestockAI stays dead (data access). 80 raw → 7 verified → 1 confirm.
+- Learnings → SKILL v4:
+  1. Municipal consulting studies = SMALL DATA → fail criterion 6. Consultant-replacement must intersect TB-scale data (geodata, scanned archives, point clouds).
+  2. Valuation/appraisal niches have ENGINE incumbents (Verisk, Cotality, e2Value) — check engines, not just consumer tools; repackaging an engine for a new buyer ≠ novel.
+  3. Confidential-input businesses (surety financials, loss runs, CDRs) fail data obtainability — require public/licensable data.
+  4. Generator "incumbent-check: none found" is unreliable (Cell Tower AI, SilviaTerra missed) — generators must run named-product searches; orchestrator trusts only verifier results.
+  5. Parked ideas need mechanism-level novelty checks (obituary analytics existed though forecasting didn't).
+- Refined winning profile: TB-scale PUBLIC data × discovery/conflict/prediction deliverable × buyer with documented per-project spend × no data-rich incumbent in the vertical.
+
+### Iteration 4 (2026-07-22, running)
+- Lenses: scanned public-record archives × discovery products; LiDAR/point-cloud niches; proven-platform robotics services; HPC-central archive processing + wave-3 gap mining. All generators do mandatory incumbent searches.

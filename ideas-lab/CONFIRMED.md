@@ -48,8 +48,20 @@
 - Bigdata: millions of well logs + LAS files + statewide aquifer rasters + 3DEP terrain derivatives = TB-scale; HPC useful for statewide interpolation runs.
 **Evidence:** ncsd.ca.gov board doc D-4, sweetwater.org ENGEO proposal, startuphub.ai MapAid, wellntel.com, seequent.com.
 
+## ✅ 5. RowGuard — automated easement-conflict detection for utility/pipeline rights-of-way
+**Offer:** NLP parses county deed/easement records into geometry (metes-and-bounds → polygons) and overlays them on a utility's own GIS to pre-flag encroachments, conflicting easements and defective title BEFORE construction/acquisition — replacing manual per-project ROW conflict research.
+**Buyer:** Utilities, pipeline operators, renewables developers, ROW service firms. ROW acquisition runs 5–10% of total pipeline project cost; defective easements are a documented cause of delays/overruns (e.g. Trans Mountain ~$86M).
+**Criteria:**
+- Novel: incumbent ROW platforms (Pandell LandWorks, Quorum Land, Irth geoAMPS, Landboss) are records/workflow systems — none do automated conflict detection from deed text vs GIS. (Fragile: DataTrace/First American hold building blocks — speed matters.)
+- Tech: AI (LLM/OCR deed parsing, geospatial analysis).
+- Commercialisable: per-corridor/project pricing or SaaS to ROW departments.
+- No R&D: deed-text→geometry is commercially proven (DeedPlotter AI, Deed Reader Pro, Acres DeedAI); polygon-intersection is standard GIS.
+- Demand: PROVEN — ROW conflict research is paid per-project professional work today; cost-overrun evidence documented.
+- Bigdata: development phase ingests multi-county scanned deed/easement archives (millions of page images, TB-scale); nationwide title plants hold ~8B images.
+**Evidence:** pandell.com, quorumsoftware.com, geoamps.com, deedplotter.ai, get.acres.com/deedai, datatracetitle.com, pipelineequities.com, globalnews.ca (Trans Mountain).
+
 ---
-Slots remaining: 6
+Slots remaining: 5
 
 ## Parked (novel but demand unproven — candidates for reframing)
 - W14 ObituaryMind: obituary-volume demand forecasting for death-care suppliers. No evidence anyone buys forecasting in this vertical.
