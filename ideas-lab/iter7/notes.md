@@ -5,6 +5,10 @@
 - TeardownRadar — FAIL: Pentacue AI = near-exact mechanism (CV part-number reading from FCC internal photos, 300k+ devices, sold to hardware BD); FCC Insights = analytics dashboard on same corpus; TechInsights adjacent.
 - Speed-of-frontier learning: AI-on-visible-public-archives is being productized within months; "obvious once stated" archive plays are now default-taken. Remaining channel with live track record: neutral-source trade-press gaps in obscure private niches → strict-filter sweep running.
 
+## Strict-filter trade sweep result: channel CLOSED
+5 valid neutral-source gaps found — all are systems-fragmentation complaints (unified-platform asks), not data-product gaps; all map to existing vendor races (quarry drone volumetrics, claims AI/EvolutionIQ, Dockwa/Molo, Trackunit, Pix4D/Propeller). Zero advance. Trade-press gap mining is exhausted at our novelty bar.
+Remaining lever: methodology research (schlep blindness, practitioner-only knowledge sources) → in flight.
+
 ## Iter6 final kills
 - AROlens: Carbon Tracker ARO Portal (deployed project, same issue/buyers), Crunch-IS AI P&A POC (same method), Fieldshare (adjacent commercial). Demand/D passed.
 - TileTrace: USGS ML tile-delineation project + AgTile-US (Nature Sci Data national map) + SEETileDrain (HydroShare probability layers) — cluster of deployed public projects; also C borderline (52-54% balanced accuracy = open research).
