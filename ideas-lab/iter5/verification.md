@@ -1,4 +1,7 @@
-# Iter5 — Verification results
+# Iter5/6 — Verification results
+
+## Iter6 wave: SubStrata — FAIL (GeoSetta nonprofit ships free ML soil profiles from 35+ DOT archives; GeoSift startup = identical pitch). SinkholeIQ — FAIL (Verisk LOCATION Sinkhole Service since 2013; CoreLogic Hazard Risk Score; also GB-scale). EchoSuit — FAIL criterion 6 (novel-ish, thin moat vs free EEW dashboards, but DMR data honestly tens of GB, no HPC).
+## LEARNING → only gaps with inherently massive substrates (imagery/video/point-cloud/archive dumps) can pass criterion 6. All future candidates must start from the substrate.
 
 ## GuardianWatch — FAIL (novelty + data scale)
 Nevada+NCSC AI guardianship monitoring portal with Plaid integration (rollout Oct 2025); PA GTS statewide flags; TX GAFEDP 14 state-funded compliance auditors; FL clerk audit programs; FraudFindr commercial forensic tool; name collision with Guardian Watch AI LLC. Also D honest: ~1.3M cases → GB-scale, not TB. Case-count in pitch was 3x overstated.
