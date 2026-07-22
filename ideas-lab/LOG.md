@@ -1,5 +1,12 @@
 # Ideas Lab — Run Log
 
+## Iterations 8-10 (user-directed extension: crowdwisdom + expressed demand + recent trends) — COMPLETE
+- **Iter8**: 3 miners (crowdwisdom wishes, review-gaps, trends). ~23 leads → 2 verified → 0 confirms. DCPermitIQ killed (Spark, PermitPortal ship the exact deliverable); EasementComps PARKED (novelty clean — no easement-comp database exists anywhere; blocked on unvalidated price-extraction rate from recorded instruments; needs a sampling study).
+- **Iter9**: fresh <12mo trend batch. 8 leads → 2 verified → 0 confirms. NuclearQA killed (Forged Operations in production at OPG); MitigationProof PARKED (Faura/ZestyAI/Betterview blast radius + weak criterion-6).
+- **Iter10**: federal-data-degradation inversion probe. 7 documented gaps (radiosondes, disasters DB, streamgages, NASS, CE, FoodNet, EPA) → 0 confirms: replacements need collection infrastructure or are already forming (WindBorne, Climate Central) — channel closed with reasoning.
+- **Channel scoring (final)**: recent-trends > review-gaps > indexed crowdwisdom (≈0: findable wishes are already-founded startups — CompStak/UpCodes/Albedo were all built from the exact wishes found). Trend windows close within months post-2024; only <6-12-month windows on unglamorous substrates can clear the novelty bar.
+- **Net**: confirmed list stands at 10/10 high-confidence; 2 new parked candidates (EasementComps, MitigationProof) with explicit unlock conditions.
+
 ## 🏁 FINAL: GOAL ACHIEVED — 10/10 confirmed (see CONFIRMED.md)
 1. WikiPulse (Wikipedia revision-velocity tech-signal feed) 2. PlotFolio (death-care PE roll-up analytics) 3. LienLift (storage lien-auction price prediction) 4. AquiferIQ (well-siting ML from state drilling logs) 5. RowGuard (deed→GIS easement-conflict detection) 6. ParcelPast (historical-aerial per-parcel change reports) 7. MitigationWatch (mitigation-bank imagery monitoring) 8. RailTitle (ICC valuation-map digital corridor-title layer) 9. CornerVault (national PLSS corner-record archive) 10. StrikeMap (NEXRAD analytics for FAA Wildlife Hazard Assessments).
 Funnel totals: ~400 raw ideas generated, ~60 adversarially verified with web citations, 10 confirmed, ~50 verification kills each citing named competitors/projects with URLs. 7 iterations, 3 strategy pivots (multi-lens generation → consultant-replacement → inverted funnel/gap-evidence → methodology-driven schlep reversal). ~35 subagents (haiku generation/mining, sonnet verification), Fable orchestration/evaluation only, per cost directive.
