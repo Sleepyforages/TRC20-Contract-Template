@@ -72,8 +72,23 @@
 - Bigdata: multi-TB public imagery archives (NAIP alone is hundreds of TB); HPC for national backfill processing.
 **Evidence:** vonbriesen.com ASTM requirement, lightboxre.com EDR product, capeanalytics.com, historicaerials.com/terms (ToS constraint documented), usgs.gov DOQ coverage, arXiv 2112.04255.
 
+## ✅ 7. MitigationWatch — imagery-based monitoring & reporting automation for wetland/stream mitigation banks
+**Offer:** Hybrid remote-sensing service for mitigation banks' mandatory 5-10 year USACE monitoring commitments: drone/satellite time-series tracks vegetation establishment, hydrology indicators and encroachment between required field visits, auto-assembles district-compliant annual monitoring reports from imagery + field data. Scoped as augmentation (flag problems early, automate reporting), not field-visit replacement — so no policy change needed.
+**Buyer:** Mitigation bankers (NMBA industry; hundreds of active banks), in-lieu-fee programs, DOTs with permittee-responsible mitigation — all pay consultants thousands per site-year for compulsory monitoring reports.
+**Criteria:**
+- Novel: no commercial product automates mitigation-bank monitoring analytics/reporting (Ecobot = field-data forms SaaS, explicitly field-centric; RES flies drones in-house for its own banks — practice, not product; WSP = general UAV services; ERDC "drone truthing" = research).
+- Tech: AI (multispectral vegetation classification, change detection).
+- Commercialisable: per-site-year subscription riding mandatory recurring spend.
+- No R&D: NDVI/multispectral classification and change detection are mature techniques from ag/forestry.
+- Demand: PROVEN structurally — monitoring reports are compulsory under USACE mitigation banking instruments for 5-10 years; consultant spend documented.
+- Bigdata: multi-year drone orthomosaics across a portfolio of hundreds of banks = multi-TB; satellite baseline (NAIP/Sentinel) at TB-scale.
+**Evidence:** ecobot.com/monitoring, res.us (annual drone flights), erdc.usace.army.mil drone-truthing, USACE district monitoring templates (mvp/saw.usace.army.mil).
+
 ---
-Slots remaining: 4
+Slots remaining: 3
+
+## Killed in iter6 (additional)
+- OrphanFinder: DOE CATALOG consortium = publicly known PROJECT addressing same issue (U-Net on historical topo maps, 1,301 candidate wells found, explicit at-scale deployment mandate); Zefiro Methane commercial adjacent. Criteria include "projects" — consistent with ArchScreen precedent → kill despite strong demand ($4.7B IIJA).
 
 ## Killed in iter5
 - TowRecover (towed-vehicle auction analytics): IAA Vehicle Value/ACV MAX = same service, same asset class, sibling channel; Autura owns distribution. Strict novelty kill.
