@@ -1,36 +1,41 @@
-# Idea Harvest Skill — v1
+# Idea Harvest Skill — v2
 
 ## Goal
 Find 10 business ideas (hustles or products) that pass ALL criteria with high confidence.
 
 ## Criteria (ALL must hold)
-1. **Novel (market level)** — no publicly known product/project addressing the same issue or providing the same service. Verified by web search: if a direct competitor is found, FAIL. Adjacent/partial solutions are OK if the core offer differs materially.
-2. **Tech base** — uses one or more of: AI, Blockchain, Robotics.
-3. **Commercialisable** — a clear paying customer and revenue mechanism exists.
-4. **No R&D** — buildable today entirely from existing, proven components (models, APIs, hardware, datasets). Integration/engineering OK; research/invention NOT OK.
-5. **Provable demand** — evidence people already pay for a manual/inferior version, or documented complaints/spending in the niche (forums, job posts, market reports, search volume). Since the idea itself is novel, demand is proven via adjacent evidence.
-6. **Bigdata/HPC** — involves >1TB of data (as input, asset, or service) and/or HPC (in development or operation).
+1. **Novel (market level)** — no publicly known product/project addressing the same issue/service. Verified adversarially by web search.
+2. **Tech base** — AI, Blockchain, and/or Robotics.
+3. **Commercialisable** — clear payer + revenue mechanism.
+4. **No R&D** — existing proven components only. Integration OK; invention/engineering-risk NOT OK (e.g. outdoor ground robots on unstructured terrain = R&D → fail).
+5. **Provable demand** — DIRECT evidence of spend on a manual/inferior version of the same outcome. Inferred demand ("VCs buy tools generally") is insufficient for final pass.
+6. **Bigdata/HPC** — >1TB data involved and/or HPC in dev or operation.
 
-## Strategy v1: Multi-lens generation → triage → adversarial verification
-### Generation lenses (each agent gets one)
-- L1 Pain mining: expensive manual workflows in data-heavy industries → automate with AI.
-- L2 Dataset-first: existing open/commercial >1TB datasets nobody has productised.
-- L3 Cross-pollination: take a proven business model from industry A, apply to underserved industry B with AI/robotics.
-- L4 Compliance/regulation: new 2024-2026 regulations creating mandatory demand; blockchain/AI for audit/provenance.
-- L5 HPC arbitrage: idle compute, simulation-as-a-service, model distillation services for niches.
+## KILL-PATTERNS (learned iter1 — auto-reject at generation, do not even emit)
+- "<X> detection/monitoring via satellite" — EO analytics saturated (ImiSight, OpenET, Terra Trace, OCTAVE, Satelligence…)
+- "Blockchain provenance/passport for <material/product>" — SMX, Circulor, Minespider, IBM Food Trust…
+- "Simulation-as-a-service / analysis bureau for <part>" — decades-old consultancy segments (CAE Services, VICUSdt, Moldex3D)
+- "Carfax for <asset>" — pattern too famous (Machinetrail, IRONcheck)
+- "Compliance automation for <named EU/US regulation>" — vendor land-rush within months of any regulation (ProvenanceAI, Satelligence, Watershed)
+- "Predictive maintenance for <equipment>"; "AI quality inspection on <production line>" — Augury, Inwatec etc.
+- Any idea expressible as "<well-known pattern> for <industry>" — if the pattern has a name, someone built it.
+- AI enhancement of medical images; fish/catch forecasting; gentrification prediction; deal-sourcing platforms (broad).
 
-### Generation rules (per raw idea, keep it to 4 lines)
-- NAME | one-sentence offer | who pays & why | which tech + which >1TB data / HPC angle
-- Aim for boring-but-specific niches, not sci-fi. No idea that needs new science.
-- Prefer B2B niches (demand is provable via spend); avoid consumer apps (crowded → novelty fails).
+## WHERE NOVELTY SURVIVED (iter1 evidence)
+- Hyper-specific unusual data source × unusual buyer (Wikipedia revision-velocity → VC scouts): C4, only weak-margin pass.
+- Proven technique transplanted into ultra-conservative niche whose incumbent software is static (cemetery yield management): C18, novelty passed, demand unclear.
+→ Novelty needs ≥2 simultaneously unusual dimensions, OR a niche too small/boring for startups but with real spend.
 
-### Triage (orchestrator, no tools)
-Score 0-2 per criterion from face value; kill anything with an obvious known competitor or R&D smell. Advance top ~25%.
+## Strategy v2: demand-first + intersections + static incumbents + gap mining
+- **B Demand-first harvesting (with web search):** find DOCUMENTED pain first (forum threads, "still uses Excel/fax", job ads for manual data-entry roles, industry-press complaints), then wrap tech around it. Demand evidence is captured at generation time.
+- **C Triple intersection:** rare dataset (>1TB) × non-obvious technique × specific buyer who already spends money on the outcome.
+- **D Static-incumbent verticals:** verticals whose dominant software vendors ship no AI/data features (check their sites); the product = the capability the incumbent lacks, sold standalone.
+- **A Gap mining:** unserved slices discovered inside iter1 verification evidence (e.g. OpenET has 6-week lag and no enforcement-grade reporting; incumbents serve sub-problems separately).
+- **E Survivor strengthening:** C4 (find direct demand proof), C18 (reframe from "surge pricing" to inventory/yield analytics for death-care).
 
-### Verification (per candidate, agent with WebSearch)
-1. Search 3-5 phrasings of the offer + "startup|product|service|github". List closest existing products and why they differ. Verdict: NOVEL / NOT NOVEL / UNCLEAR.
-2. Search for demand evidence: who pays for the manual version today, market size, complaints.
-3. Verdict per criterion with citations. Kill on any hard FAIL.
+## Verification protocol (unchanged + stricter demand)
+Adversarial web search per candidate: 3-5 refutation searches; verdicts A/B/C with URLs. B requires DIRECT spend evidence on same outcome. Any hard FAIL kills.
 
-## Learned rules (updated each iteration)
-- (v1 — none yet)
+## Process notes
+- Generation: haiku agents. Verification: sonnet agents with WebSearch. Fable: triage + final scoring only.
+- Triage before verification saves ~4x verification cost; triage kill-rate iter1 was 82%, verification kill-rate 89% — expect ~1-2 finals per 100 raw. Budget iterations accordingly.
