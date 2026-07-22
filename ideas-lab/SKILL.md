@@ -1,3 +1,12 @@
+# Idea Harvest Skill — v7 (iterations 8-10 appendix)
+
+## v7 appended strategy (user directive): crowdwisdom + expressed demand + recent trends
+- **Crowdwisdom/expressed demand**: mine explicit wish statements — "I'd pay for", "someone should build", "why doesn't X exist" — on Reddit/HN/practitioner forums in data-heavy professional domains; and review-site gap complaints (G2/Capterra "missing feature" patterns across niche vertical-SaaS categories). Expressed wishes = direct demand evidence; still require novelty verification (a loud wish sometimes means products exist but are bad — distinguish).
+- **Recent trends (2025-26)**: second-order demand from fresh shifts (data-center boom, AI-agent adoption, reshoring/tariffs, drone-delivery expansion, EV transition, aging-infrastructure funding waves). New demand = fewer incumbents by construction; still verify.
+- Retain everything from v3-v6: criteria, kill-list, refined calibration (manual consultants = demand evidence; different-deliverable free tools ≠ same service; same-deliverable gov/academic projects with deployment intent = kill), substrate-first rule (>1TB honest), avoid academic/gov data-science domains.
+
+---
+
 # Idea Harvest Skill — v3
 
 ## v3 learnings (iter2: 100 raw → 18 verified → 2 confirmed, 2 parked)
