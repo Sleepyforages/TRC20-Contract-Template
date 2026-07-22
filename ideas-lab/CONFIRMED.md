@@ -96,8 +96,23 @@
 - Bigdata: ~11,000 cubic feet; 125k large-format archival scans (100-300MB each) + schedules = multi-TB document-image archive.
 **Evidence:** taylorresearchgroup.com, westmorelandresearch.org, dot.state.mn.us/surveying/railroad.html, inspire.redlands.edu, swslegal.com, archives.gov RG 134.
 
+## ✅ 9. CornerVault — national AI-indexed PLSS corner-record & monument tie-sheet archive
+**Offer:** Aggregates, OCRs and map-indexes the millions of survey corner records/monument tie sheets currently fragmented across county surveyor offices, registers of deeds and inconsistent state portals in ~30 PLSS states; subscription search for land surveyors (per-corner evidence packets: sketches, photos, accessories, retracement history), per-search for title/engineering users.
+**Buyer:** 40k+ US land surveyors who today burn hours per boundary job hunting corner evidence county-by-county (solo practitioners first — stair-step tactic); title/engineering firms second.
+**Criteria:**
+- Novel: no national aggregator exists (free or commercial). Closest: cp-db.com — a SINGLE-STATE (Colorado) subscription monument-record product = demand validation, not a national killer; Indiana's official statewide attempt covers 5/92 counties; Arkansas/Washington systems are single-state or different deliverables (geodetic control ≠ tie sheets); BLM GLO = 1800s plats, different corpus.
+- Tech: AI (OCR/CV indexing of heterogeneous scanned sheets, geo-linking to PLSS fabric).
+- Commercialisable: proven subscription model at state level (cp-db.com); national coverage is the product.
+- No R&D: standard document AI + PLSS georeferencing (BLM CadNSDI fabric exists as spine).
+- Demand: PROVEN — surveyors pay cp-db.com today; county research hours/fees are the manual alternative; corner-record filing is statutory in PLSS states (recurring corpus growth).
+- Bigdata: millions of sheets (1-2MB each) → single-digit-TB document-image archive, honestly >1TB; county-sourcing schlep is the moat.
+**Evidence:** cp-db.com, maps.indiana.edu PLSS tie cards (5/92), gis.arkansas.gov, wsdot.wa.gov/monument, glorecords.blm.gov, sco.wisc.edu PLSS forum.
+
 ---
-Slots remaining: 2
+Slots remaining: 1
+
+## Killed in iter7 (additional)
+- MineMapIQ: PA/IL/OH free georeferenced mine viewers = same deliverable at buyer-relevant scale; OSMRE NMMR modernization (319k TIFFs/31TB) is the federal same-deliverable project. Honest criterion kill.
 
 ## Killed in iter6 (additional)
 - OrphanFinder: DOE CATALOG consortium = publicly known PROJECT addressing same issue (U-Net on historical topo maps, 1,301 candidate wells found, explicit at-scale deployment mandate); Zefiro Methane commercial adjacent. Criteria include "projects" — consistent with ArchScreen precedent → kill despite strong demand ($4.7B IIJA).
