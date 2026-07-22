@@ -1,0 +1,17 @@
+# Iter3 — G6c: Private consultant-replacement (15 raw)
+
+1. Timber Cruise Automation (drone LiDAR) — $8-15/acre cruises [CHECK: SilviaTerra/NCX, Treeswift, Gaia AI — generator's "none found" is wrong]
+2. Phase I ESA Risk Predictor — $1.9-7.5k/property [CHECK: LightBox/EDR own this data; ERIS; partial-automation products exist]
+3. Cell Tower Lease Fair-Value Calculator — consultants on contingency; no automated tool [VERIFY; bigdata criterion weak — needs RF/traffic augmentation]
+4. Marina Slip Valuation — $5-15k appraisals [VERIFY; small-data concern]
+5. Church Property Appraisal Platform — $5-25k appraisals [VERIFY; small-data concern; overlaps G7-16]
+6. Liquor License Valuation API — quota-state licenses $50-200k [VERIFY; small-data]
+7. Billboard Appraisal Automation — $5-15k appraisals [VERIFY; small-data]
+8. Water Rights Valuation Model — [CHECK: WestWater Research exists — likely kill]
+9. Conservation Easement Optimizer — [KILL-lean: IRS scrutiny/syndication abuse zone — reputational risk]
+10. Self-Storage Proforma Generator — feasibility $3.5-10k [Radius+ adjacent; weak novelty margin]
+11. Car Wash Saturation Analyzer — [generator itself found MapZot.AI/AccuSite — kill]
+12. Franchise Territory Dispute Analysis — [niche legal-consulting; weak productizability]
+13. Mineral Royalty NPV Forecaster — existing calculators static; dynamic decline-curve product [VERIFY; overlaps G7-6]
+14. Condo Replacement-Cost Appraisal SaaS — $1.5-5k/building, no SaaS found [VERIFY — FL SIRS mandate tailwind; parcel+imagery data can reach TB]
+15. Ag Equipment Lending Appraisal — [KILL-lean: auction-data vendors (Machinery Pete, Iron Solutions) close]
