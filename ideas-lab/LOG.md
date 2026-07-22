@@ -37,5 +37,10 @@ Target X=10, raw batch per iteration = 100 (X*10).
   5. Parked ideas need mechanism-level novelty checks (obituary analytics existed though forecasting didn't).
 - Refined winning profile: TB-scale PUBLIC data × discovery/conflict/prediction deliverable × buyer with documented per-project spend × no data-rich incumbent in the vertical.
 
-### Iteration 4 (2026-07-22, running)
-- Lenses: scanned public-record archives × discovery products; LiDAR/point-cloud niches; proven-platform robotics services; HPC-central archive processing + wave-3 gap mining. All generators do mandatory incumbent searches.
+### Iteration 4 (2026-07-22) — COMPLETE
+- Lenses: scanned archives, LiDAR, robotics services, HPC/gap-mining. 80 raw → 8 verified → **0 confirmed** (5/10 total unchanged).
+- Findings: robotics-service lens closed (saturated, 31-search sweep); archive lens more occupied than generator checks showed (Oseberg/Enverus, Water Sage, Deed Plotter, ArchAI, Esri native tools); two new hard-fail modes: legally-restricted data (dam files) and free-incumbent (Esri/gov tools).
+- Strategy verdict: generate→verify funnel is exhausting; precision of "describable idea nobody built" is collapsing. PIVOT per goal rules.
+
+### Iteration 5 (2026-07-22, running) — INVERTED FUNNEL
+- Start from verified gap evidence instead of generated ideas: (a) rescue near-misses via rescoping (EncroachScan v2 on pre-georeferenced licensed archives); (b) LienLift-sibling in distinct market (TowRecover — towed-vehicle auctions); (c) two gap-statement miners: neutral trade-press "no solution exists" sweeps + government audit reports (GAO/state auditors) documenting tooling absence with dollar figures.

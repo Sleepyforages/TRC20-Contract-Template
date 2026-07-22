@@ -1,5 +1,16 @@
 # Iter4 — Verification wave 4 results
 
+## SUMMARY: 8 verified → 0 confirmed. Iteration 4 nets zero; strategy pivot triggered per goal rules.
+
+## X4 CorpsPrecedent — KILL (orchestrator)
+Novel-ish (no paid precedent product; free Wetlands Impact Tracker adjacent) but demand unproven, ORM2 data FOIA-gated, and D honestly sub-TB → fails criterion 6.
+
+## X5 DamDocs — FAIL (data legally restricted)
+Post-2001 FERC/state disclosure restrictions on dam inspection detail; DamIndex has only summary fields for this reason. Data-access wall.
+
+## X6 DesignScope — FAIL (novelty, decisive)
+PatSnap image search (20M+ designs), Corsearch/TrademarkVision Industrial Design Search, PatSeer, InQuartik, USPTO DesignVision (2025).
+
 ## X1 HearingVault — FAIL (novelty)
 Oseberg (ML-extracted OCC hearing applications/orders), Enverus Oklahoma Source Spacing (full historical hearing precedent), RRC free digitization reduces TX pain. Residual TX/LA semantic slice too narrow.
 
